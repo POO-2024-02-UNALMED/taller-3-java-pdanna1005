@@ -59,4 +59,12 @@ public class Control {
         this.tv = tv;
         tv.setControl(this);
     }
+
+    public TV getTv() {
+        return tv;
+    }
+
+    public void setTv(TV tv) {
+        this.tv = tv;
+    }
 }
