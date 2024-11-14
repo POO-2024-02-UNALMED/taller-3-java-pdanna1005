@@ -15,30 +15,30 @@ public class TV {
         numTv++;
     }
 
-    public void setCanal(int canal) {
+    public void setCanal(int newCanal) {
         if (estado == true){
             if (this.canal < 120 && this.canal > 1) {
-                this.canal = canal;
+                this.canal = newCanal;
             }
         }
     }
 
-    public void setControl(Control control) {
-        this.control = control;
+    public void setControl(Control newControl) {
+        this.control = newControl;
     }
 
-    public void setMarca(Marca marca) {
-        this.marca = marca;
+    public void setMarca(Marca newMarca) {
+        this.marca = newMarca;
     }
 
-    public void setPrecio(int precio) {
-        this.precio = precio;
+    public void setPrecio(int newPrecio) {
+        this.precio = newPrecio;
     }
 
-    public void setVolumen(int volumen) {
+    public void setVolumen(int newVolumen) {
         if (estado == true){
             if (volumen < 7 && volumen > 0) {
-                this.volumen = volumen;
+                this.volumen = newVolumen;
             }
         }
     }
@@ -64,11 +64,11 @@ public class TV {
     }
 
     public static void setNumTV(int newNumTv) {
-        numTv = newNumTv;
+        TV.numTv = newNumTv;
     }
 
     public static int getNumTV() {
-        return numTv;
+        return TV.numTv;
     }
 
     public void turnOn() {
