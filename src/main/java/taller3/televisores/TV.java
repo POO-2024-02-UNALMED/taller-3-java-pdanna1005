@@ -63,11 +63,11 @@ public class TV {
         return volumen;
     }
 
-    public static void setNumTv(int newNumTv) {
+    public static void setNumTV(int newNumTv) {
         numTv = newNumTv;
     }
 
-    public static int getNumTv() {
+    public static int getNumTV() {
         return numTv;
     }
 
