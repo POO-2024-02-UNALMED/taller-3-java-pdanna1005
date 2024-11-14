@@ -44,23 +44,23 @@ public class TV {
     }
 
     public int getCanal() {
-        return canal;
+        return this.canal;
     }
 
     public Control getControl() {
-        return control;
+        return this.control;
     }
 
     public Marca getMarca() {
-        return marca;
+        return this.marca;
     }
 
     public int getPrecio() {
-        return precio;
+        return this.precio;
     }
 
     public int getVolumen() {
-        return volumen;
+        return this.volumen;
     }
 
     public static void setNumTV(int newNumTv) {
@@ -80,7 +80,7 @@ public class TV {
     }
 
     public boolean getEstado() {
-        return estado;
+        return this.estado;
     }
 
     public void canalUp() {
