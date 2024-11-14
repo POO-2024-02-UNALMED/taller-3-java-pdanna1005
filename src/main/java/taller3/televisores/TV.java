@@ -12,27 +12,27 @@ public class TV {
     public TV(Marca marca, boolean estado) {
         this.marca = marca;
         this.estado = estado;
-        numTV++;
+        numTV = numTV + 1;
     }
 
-    public void setCanal(int newCanal) {
+    public void setCanal(int canal) {
         if (this.estado == true){
             if (this.canal < 120 && this.canal > 1) {
-                this.canal = newCanal;
+                this.canal = canal;
             }
         }
     }
 
-    public void setControl(Control newControl) {
-        this.control = newControl;
+    public void setControl(Control control) {
+        this.control = control;
     }
 
-    public void setMarca(Marca newMarca) {
-        this.marca = newMarca;
+    public void setMarca(Marca marca) {
+        this.marca = marca;
     }
 
-    public void setPrecio(int newPrecio) {
-        this.precio = newPrecio;
+    public void setPrecio(int precio) {
+        this.precio = precio;
     }
 
     public void setVolumen(int newVolumen) {
