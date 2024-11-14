@@ -36,7 +36,7 @@ public class Control {
     }
 
     public void enlazar(TV tvHost){
-        this.tv = tv;
+        this.tv = tvHost;
         tvHost.setControl(this);;
     }
 
